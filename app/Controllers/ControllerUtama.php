@@ -8,4 +8,8 @@ class ControllerUtama extends BaseController
     {
         return view('halaman-login');
     }
+    public function homepage()
+    {
+        return view('dashboard-home');
+    }
 }
