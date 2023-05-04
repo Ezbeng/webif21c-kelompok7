@@ -10,7 +10,7 @@
     background-position-y: center;
 }
 
-.avatar {
+.avatar-tekno {
     height: 150px;
     width: 150px;
     padding: 10px;
@@ -27,8 +27,3 @@
     color: white;
 }
 
-.test{
-    width: 20px;
-    height: 20px;
-    background-color: red;
-}
