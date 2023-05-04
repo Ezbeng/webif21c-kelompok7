@@ -24,7 +24,7 @@
                 <div class="col"></div>
               </div>
               <br>
-              <h3 style="text-align:center; color: rgb(77, 77, 255);">SISFO M.D.A TEKNOKRAT</h3>
+              <h3 style="text-align:center; color: tomato">SISFO M.D.A TEKNOKRAT</h3>
               <br>
               <form>
                 <div class="form-floating mb-3">
