@@ -24,7 +24,8 @@
                 <div class="col"></div>
               </div>
               <br>
-              <h3 class="login-heading mb-4" style="text-align:center;"><b>SISFO M.D.A TEKNOKRAT</b></h3>
+              <h3 style="text-align:center; color: rgb(77, 77, 255);">SISFO M.D.A TEKNOKRAT</h3>
+              <br>
               <form>
                 <div class="form-floating mb-3">
                   <input type="text" class="form-control" id="floatingInput" placeholder="admin">
@@ -38,7 +39,7 @@
                 <div class="form-check mb-3">
                   <input class="form-check-input" type="checkbox" value="" id="rememberPasswordCheck">
                   <label class="form-check-label" for="rememberPasswordCheck">
-                    Remember password
+                    Ingat password
                   </label>
                 </div>
 

@@ -10,17 +10,19 @@
     background-position-y: center;
 }
 
-.login-heading {
-    font-weight: 300;
+.avatar{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(77, 77, 255);
+    border-radius: 100%;
 }
+
 
 .btn-login {
     font-size: 0.9rem;
     letter-spacing: 0.05rem;
     padding: 0.75rem 1rem;
-    background-color:rgb(255, 175, 122);
-}
-.avatar{
-    height: 150px;
-    width: 150px;
+    background-color:rgb(77, 77, 255);
+    color: white;
 }
