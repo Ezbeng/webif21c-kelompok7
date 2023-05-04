@@ -1,5 +1,5 @@
 # Projek Pemrograman Web Tugas Akhir
-Click [here](https://webif21c-kelompok7.000webhostapp.com/)
+[https://webif21c-kelompok7.000webhostapp.com](https://webif21c-kelompok7.000webhostapp.com/)
 Kelompok : 7
 anggota :
 - Ricky Fajar Adi Putra
