@@ -16,7 +16,7 @@
   <body id="body-pd">
     disini dashboard
     <?php 
-      include '../app/Views/modules/navigasi.php';
+      
     ?>
     <script src="../app/Views/modules/dist/js/navigasi.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
