@@ -23,7 +23,7 @@
             </a>
             <a href="#" class="nav_link subitem-dashbtn">
               <span class="nav_name">
-                <pre>     Data asset</pre>
+                <pre>     Data</pre>
               </span>
             </a>
             <a href="#" class="nav_link subitem-dashbtn">
