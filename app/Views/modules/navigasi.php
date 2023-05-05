@@ -3,7 +3,7 @@
       <div class="header_toggle">
         <i class='bx bx-menu' id="header-toggle"></i>
       </div>
-      <span><b>DASHBOARD</b></span>  
+      <span><b>MENU MANAGEMENT</b></span>  
       <div class="header_img">
         <img src="assets/images/UNIVERSITASTEKNOKRAT.png" alt="">
       </div>
