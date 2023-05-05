@@ -21,36 +21,36 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     // Menandai tautan yang aktif dalam navbar
     const links = document.querySelectorAll('.nav_link');
-const subitemdash = document.getElementsByClassName('subitem-dashbtn');
-let isSubitemOpen = false;
+    const subitemdash = document.getElementsByClassName('subitem-dashbtn');
+    let isSubitemOpen = false;
 
-links.forEach(link => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
-    
-    if (link.classList.contains('nav_link') && link.getAttribute('id') === 'dashboard') {
-      isSubitemOpen = !isSubitemOpen; // toggle status subitem
-      for (let i = 0; i < subitemdash.length; i++) {
-        subitemdash[i].style.display = isSubitemOpen ? 'block' : 'none';
-      }
-    } else if (!link.classList.contains('subitem') && !link.classList.contains('subitem-dashbtn')) {
-      isSubitemOpen = false;
-      for (let i = 0; i < subitemdash.length; i++) {
-        subitemdash[i].style.display = 'none';
-      }
-    }
-    
-    links.forEach(link => link.classList.remove('active'));
-    this.classList.add('active');
-  });
-});
+    links.forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        if (link.classList.contains('nav_link') && link.getAttribute('id') === 'dashboard') {
+        isSubitemOpen = !isSubitemOpen; // toggle status subitem
+        for (let i = 0; i < subitemdash.length; i++) {
+            subitemdash[i].style.display = isSubitemOpen ? 'block' : 'none';
+        }
+        } else if (!link.classList.contains('subitem') && !link.classList.contains('subitem-dashbtn')) {
+        isSubitemOpen = false;
+        for (let i = 0; i < subitemdash.length; i++) {
+            subitemdash[i].style.display = 'none';
+        }
+        }
+        
+        links.forEach(link => link.classList.remove('active'));
+        this.classList.add('active');
+    });
+    });
 
-const preventLinks = document.querySelectorAll('a[href="#"]');
-preventLinks.forEach(link => {
-  link.addEventListener('click', function(event) {
-    event.preventDefault();
-  });
-});
+    const preventLinks = document.querySelectorAll('a[href="#"]');
+    preventLinks.forEach(link => {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+    });
+    });
 
 
 
