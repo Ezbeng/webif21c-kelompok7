@@ -21,7 +21,7 @@ class Home extends BaseController
             return redirect()->to('dashboard-home');
         } else {
             session()->setFlashdata('error', 'Username atau password salah');
-            return redirect()->to('login-val');
+            return redirect()->to('login');
         }
     }
     public function homepage()
