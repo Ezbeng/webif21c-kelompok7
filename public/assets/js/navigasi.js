@@ -26,7 +26,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     links.forEach(link => {
     link.addEventListener('click', function(event) {
-        event.preventDefault();
         
         if (link.classList.contains('nav_link') && link.getAttribute('id') === 'dashboard') {
         isSubitemOpen = !isSubitemOpen; // toggle status subitem
@@ -45,12 +44,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
     });
     });
 
-    const preventLinks = document.querySelectorAll('a[href="#"]');
-    preventLinks.forEach(link => {
-    link.addEventListener('click', function(event) {
-        event.preventDefault();
-    });
-    });
+    // const preventLinks = document.querySelectorAll('a[href="#"]');
+    // preventLinks.forEach(link => {
+    // link.addEventListener('click', function(event) {
+    //     event.preventDefault();
+    // });
+    // });
 
 
 
