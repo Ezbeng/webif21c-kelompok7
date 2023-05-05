@@ -32,6 +32,9 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'ControllerUtama::index');
 $routes->get('/login', 'ControllerUtama::index');
 $routes->get('/dashboard-home', 'ControllerUtama::homepage');
+$routes->get('/data-home', 'ControllerUtama::datapage');
+$routes->get('/inventaris-home', 'ControllerUtama::inventarispage');
+$routes->get('/user-home', 'ControllerUtama::userpage');
 
 
 /*
