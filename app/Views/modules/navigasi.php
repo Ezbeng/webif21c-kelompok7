@@ -21,23 +21,23 @@
               <i class='bx bx-grid-alt nav_icon'></i>
               <span class="nav_name">Dashboard</span>
             </a>
-            <a href="#" class="nav_link subitem-dashbtn">
+            <a href="data-home" class="nav_link subitem-dashbtn">
               <span class="nav_name">
                 <pre>     Data</pre>
               </span>
             </a>
-            <a href="#" class="nav_link subitem-dashbtn">
+            <a href="inventaris-home" class="nav_link subitem-dashbtn">
               <span class="nav_name">
                 <pre>     Inventaris</pre>
               </span>
             </a>
-            <a href="#" class="nav_link subitem-dashbtn">
+            <a href="properti-home" class="nav_link subitem-dashbtn">
               <span class="nav_name">
                 <pre>     Properti</pre>
               </span>
             </a>
 
-            <a href="#" class="nav_link">
+            <a href="user-home" class="nav_link">
               <i class='bx bx-user nav_icon'></i>
               <span class="nav_name">Users</span>
             </a>
