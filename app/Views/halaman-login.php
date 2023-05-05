@@ -27,16 +27,16 @@
                 <br>
                 <h3 style="text-align:center; color: tomato">SISFO M.D.A TEKNOKRAT</h3>
                 <br>
-                <form action="login">
+                <form action="login" method="POST">
                   <?php if (session()->has('error')) : ?>
                       <div class="error"><?= session('error') ?></div>
                   <?php endif ?>
                   <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="admin">
+                    <input type="text" class="form-control" id="username" name="username" placeholder="admin">
                     <label for="floatingInput">Username</label>
                   </div>
                   <div class="form-floating mb-3">
-                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                   </div>
 
