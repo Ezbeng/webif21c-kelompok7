@@ -13,7 +13,7 @@
 
   <body id="body-pd">
     <?php 
-      
+      include '../app/Views/modules/navigasi.php';
     ?>
     <h4>Main</h4>
 
