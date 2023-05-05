@@ -17,7 +17,16 @@
     ?>
     
     <h4>Halaman ini berisikan data dari user/akun dari Manajemen Data dan Asset Kampus</h4>
-
+    <table>
+        <?php foreach ($users as $user) : ?>
+          <tr>
+            <td><?= $user['id'] ?></td>
+            <td><?= $user['username'] ?></td>
+            <td><?= $user['password'] ?></td>
+            <td><?= $user['cookie'] ?></td>
+          </tr>
+        <?php endforeach; ?>
+    </table>
     <script src="assets/js/navigasi.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
     <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
