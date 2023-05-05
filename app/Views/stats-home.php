@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <title>Users</title>
+    <title>Stats</title>
     <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet'>
     <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css">
@@ -16,7 +16,7 @@
       include '../app/Views/modules/navigasi.php';
     ?>
     
-    <h4>Halaman ini berisikan data dari user/akun dari Manajemen Data dan Asset Kampus</h4>
+    <h4>Halaman ini berisikan data lebih details dari Manajemen Data dan Asset Kampus</h4>
 
     <script src="assets/js/navigasi.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>

@@ -24,4 +24,8 @@ class ControllerUtama extends BaseController
     {
         return view('user-home');
     }
+    public function statspage()
+    {
+        return view('stats-home');
+    }
 }
