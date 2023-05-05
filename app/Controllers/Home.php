@@ -38,7 +38,9 @@ class Home extends BaseController
     }
     public function userpage()
     {
-        return view('user-home');
+        $usersModel = new \App\Models\UsersModel();
+        $data['users'] = $usersModel->findAll();
+        return view('user-home',$data);
     }
     public function statspage()
     {
