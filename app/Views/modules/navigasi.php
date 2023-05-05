@@ -3,23 +3,40 @@
       <div class="header_toggle">
         <i class='bx bx-menu' id="header-toggle"></i>
       </div>
+      <span><b>DASHBOARD</b></span>  
       <div class="header_img">
-        <img src="https://i.imgur.com/hczKIze.jpg" alt="">
+        <img src="assets/images/UNIVERSITASTEKNOKRAT.png" alt="">
       </div>
     </header>
 
     <div class="l-navbar" id="nav-bar">
       <nav class="nav">
         <div>
-          <a href="#" class="nav_logo">
-            <img src="../app/Views/modules/dist/images/UNIVERSITASTEKNOKRAT.png" width="40px" alt="">
+          <a href="/dashboard-home" class="nav_logo">
+            <img src="assets/images/UNIVERSITASTEKNOKRAT.png" width="40px" alt="">
             <span class="nav_logo-name">MANAGEMENT</span>
           </a>
           <div class="nav_list">
-            <a href="#" class="nav_link active">
+            <a href="#" class="nav_link active" id="dashboard">
               <i class='bx bx-grid-alt nav_icon'></i>
               <span class="nav_name">Dashboard</span>
             </a>
+            <a href="#" class="nav_link subitem-dashbtn">
+              <span class="nav_name">
+                <pre>     Data asset</pre>
+              </span>
+            </a>
+            <a href="#" class="nav_link subitem-dashbtn">
+              <span class="nav_name">
+                <pre>     Inventaris</pre>
+              </span>
+            </a>
+            <a href="#" class="nav_link subitem-dashbtn">
+              <span class="nav_name">
+                <pre>     Properti</pre>
+              </span>
+            </a>
+
             <a href="#" class="nav_link">
               <i class='bx bx-user nav_icon'></i>
               <span class="nav_name">Users</span>
@@ -43,10 +60,7 @@
         </div>
         <a href="#" class="nav_link">
           <i class='bx bx-log-out nav_icon'></i>
-          <span class="nav_name">SignOut</span>
+          <span class="nav_name">LogOut</span>
         </a>
       </nav>
-    </div>
-    <div class="height-100 bg-light">
-      <h4>Main Components</h4>
     </div>
