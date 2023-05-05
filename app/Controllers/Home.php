@@ -18,10 +18,10 @@ class Home extends BaseController
         if ($user && $pass) {
             $_SESSION['user'] = $user;
             session()->remove('error');
-            return view('dashboard-home');
+            return redirect()->to('dashboard-home');
         } else {
             session()->setFlashdata('error', 'Username atau password salah');
-            return view('halaman-login');
+            return redirect()->to('login');
         }
     }
     public function homepage()
