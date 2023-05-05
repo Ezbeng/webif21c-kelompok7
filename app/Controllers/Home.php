@@ -8,6 +8,10 @@ class Home extends BaseController
     {
         return view('halaman-login');
     }
+    public function login()
+    {
+        return view('halaman-login');
+    }
     public function homepage()
     {
         return view('dashboard-home');
