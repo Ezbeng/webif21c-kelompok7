@@ -11,7 +11,7 @@ $routes = Services::routes();
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('ControllerUtama');
+$routes->setDefaultController('Home');
 $routes->setDefaultMethod('index');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override();
@@ -29,13 +29,13 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'ControllerUtama::index');
-$routes->get('/login', 'ControllerUtama::index');
-$routes->get('/dashboard-home', 'ControllerUtama::homepage');
-$routes->get('/data-home', 'ControllerUtama::datapage');
-$routes->get('/inventaris-home', 'ControllerUtama::inventarispage');
-$routes->get('/user-home', 'ControllerUtama::userpage');
-$routes->get('/stats-home', 'ControllerUtama::statspage');
+$routes->get('/', 'Home::index');
+$routes->get('/login', 'Home::index');
+$routes->get('/dashboard', 'Home::homepage');
+$routes->get('/data', 'Home::datapage');
+$routes->get('/inventaris', 'Home::inventarispage');
+$routes->get('/user', 'Home::userpage');
+$routes->get('/stats', 'Home::statspage');
 
 
 /*
