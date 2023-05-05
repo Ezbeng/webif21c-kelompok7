@@ -27,7 +27,7 @@
                 <br>
                 <h3 style="text-align:center; color: tomato">SISFO M.D.A TEKNOKRAT</h3>
                 <br>
-                <form action="login">
+                <form action="login-val">
                   <?php if (session()->has('error')) : ?>
                       <div class="error"><?= session('error') ?></div>
                   <?php endif ?>
