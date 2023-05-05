@@ -58,7 +58,7 @@
             </a>
           </div>
         </div>
-        <a href="login" class="nav_link logout-btn">
+        <a href="/" class="nav_link logout-btn">
           <i class='bx bx-log-out nav_icon'></i>
           <span class="nav_name">Log Out</span>
         </a>
