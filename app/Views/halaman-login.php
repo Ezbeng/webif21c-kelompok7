@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/assets/css/styleutama.css">
     <title>LOGIN</title>
 </head>
-<body style="background-image: url('assets/images/Universitas_Teknokrat_Indonesia.jpg');">
+<body style="background-image: url('/assets/images/Universitas_Teknokrat_Indonesia.jpg');">
     <div class="container-form">
         <form action="Home/halamanhome" class="form-case">
             <img src="assets/images/UNIVERSITASTEKNOKRAT.png" width="100px" alt="" class="avatar-login">
