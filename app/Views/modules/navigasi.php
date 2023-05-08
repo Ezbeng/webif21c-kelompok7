@@ -1,66 +1,68 @@
+<div class="container-navbar">
+            <div class="navbar">
+                <div class="navbar-title">
+                    <img src="/assets/images/UNIVERSITASTEKNOKRAT.png" width="50px" alt="">
+                    <span>MANAGEMENT</span>
+                </div>
+                <br>
+                <div class="nav-items aktif dashboard" id="DASHBOARD">
+                    <i class="bi bi-menu-button-wide"></i>
+                    <span>Dashboard</span>
+                </div>
+                <div class="sub-items-case">
+                    <div class="nav-items" id="DATA ASSETS">
+                        <i class="bi bi-bar-chart-line"></i>
+                        <span>Data Asets</span>
+                    </div>
+                    <div class="nav-items">
+                        &nbsp;&nbsp;SubItem
+                    </div>
+                    <div class="nav-items">
+                        &nbsp;&nbsp;SubItem
+                    </div>
+                    <div class="nav-items">
+                        &nbsp;&nbsp;SubItem
+                    </div>
+                </div>
 
-   <header class="header" id="header">
-      <div class="header_toggle">
-        <i class='bx bx-menu' id="header-toggle"></i>
-      </div>
-      <span><b>MENU DASHBOARD MANAGEMENT</b></span>  
-      <div class="header_img">
-        <img src="assets/images/UNIVERSITASTEKNOKRAT.png" alt="">
-      </div>
-    </header>
+                <div class="nav-items tabledata" id="TABLEDATA">
+                    <i class="bi bi-table"></i>
+                    <span>Table Data</span>
+                </div>
+                <div class="sub-items-case">
+                    <div class="nav-items" id="TABLE ASSETS">
+                        <i class="bi bi-bar-chart-line"></i>
+                        <span>Table Asets</span>
+                    </div>
+                    <div class="nav-items">
+                        &nbsp;&nbsp;SubItem
+                    </div>
+                    <div class="nav-items">
+                        &nbsp;&nbsp;SubItem
+                    </div>
+                    <div class="nav-items">
+                        &nbsp;&nbsp;SubItem
+                    </div>
+                </div>
 
-    <div class="l-navbar" id="nav-bar">
-      <nav class="nav">
-        <div>
-          <a href="dashboard-home" class="nav_logo">
-            <img src="assets/images/UNIVERSITASTEKNOKRAT.png" width="40px" alt="">
-            <span class="nav_logo-name">MANAGEMENT</span>
-          </a>
-          <div class="nav_list">
-            <a href="#" class="nav_link active" id="dashboard">
-              <i class='bx bx-grid-alt nav_icon'></i>
-              <span class="nav_name">Dashboard</span>
-            </a>
-            <a href="data-home" class="nav_link subitem-dashbtn">
-              <span class="nav_name">
-                <pre>     Data</pre>
-              </span>
-            </a>
-            <a href="inventaris-home" class="nav_link subitem-dashbtn">
-              <span class="nav_name">
-                <pre>     Inventaris</pre>
-              </span>
-            </a>
-            <a href="properti-home" class="nav_link subitem-dashbtn">
-              <span class="nav_name">
-                <pre>     Properti</pre>
-              </span>
-            </a>
+                <div class="nav-items" id="HISTORY">
+                    <i class="bi bi-clock-history"></i>
+                    <span>History</span>
+                </div>
 
-            <a href="user-home" class="nav_link">
-              <i class='bx bx-user nav_icon'></i>
-              <span class="nav_name">Users</span>
-            </a>
-            <a href="#" class="nav_link">
-              <i class='bx bx-message-square-detail nav_icon'></i>
-              <span class="nav_name">Messages</span>
-            </a>
-            <a href="#" class="nav_link">
-              <i class='bx bx-bookmark nav_icon'></i>
-              <span class="nav_name">Bookmark</span>
-            </a>
-            <a href="#" class="nav_link">
-              <i class='bx bx-folder nav_icon'></i>
-              <span class="nav_name">Files</span>
-            </a> <a href="#" class="nav_link">
-              <i class='bx bx-bar-chart-alt-2 nav_icon'></i>
-              <span class="nav_name">Stats</span>
-            </a>
-          </div>
+                <div class="nav-items" id="SETTINGS">
+                    <i class="bi bi-gear"></i>
+                    <span>Setting</span>
+                </div>
+
+                <div class="nav-items" id="REKAP">
+                    <i class="bi bi-printer"></i>
+                    <span>Rekap</span>
+                </div>
+
+                <div class="nav-items">
+                    <i class="bi bi-box-arrow-left"></i>
+                    <span>Keluar</span>
+                </div>
+            </div>
         </div>
-        <a href="/" class="nav_link logout-btn">
-          <i class='bx bx-log-out nav_icon'></i>
-          <span class="nav_name">Log Out</span>
-        </a>
-      </nav>
-    </div>

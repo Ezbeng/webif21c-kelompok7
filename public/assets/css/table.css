@@ -1,0 +1,49 @@
+.casing-table-data{
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 5px;
+}
+.table-data{
+    border-collapse: collapse;
+    min-width: 600px;
+    width: 100%;
+}
+.table-data tr .field-title , .field-data, .field-input, .field-aksi{
+    padding: 10px;
+    text-align: left;
+}
+.table-data tr .field-title, .field-aksi{
+    background-color: orange;
+    color: white;
+}
+.table-data tr .field-title i{
+    cursor: pointer;
+}
+.table-data tr .field-aksi i{
+    font-size: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.table-data tr .field-aksi i:hover{
+    color: black;
+}
+.table-data tr .field-aksi .list-table{
+    font-size: 18px;
+    padding: 10px;
+    border: 0px;
+    background-color:  orange;
+    color: white;
+
+}
+.table-data tr .pilih-data{
+    text-align: center;
+}
+.table-data tr{
+    border-bottom: 1px solid black;
+}
+.field-input input{
+    width: 100%;
+    height: 30px;
+    border: 0px;
+}
