@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN</title>
-    <link rel="stylesheet" href="assets/css/styleutama.css">
+    <link rel="stylesheet" href="/assets/css/styleutama.css">
 </head>
 <body style="background-image: url('assets/images/Universitas_Teknokrat_Indonesia.jpg');">
     <div class="container-form">
         <form action="Home/login" class="form-case" method="POST">
-            <img src="assets/images/UNIVERSITASTEKNOKRAT.png" width="100px" alt="" class="avatar-login">
+            <img src="/assets/images/UNIVERSITASTEKNOKRAT.png" width="100px" alt="" class="avatar-login">
             <label for="" class="title-form">SISFO M.D.A TEKOKRAT</label>
             <label for="">Username</label>
             <input type="text" class="username" placeholder="Username" name="username" id="username" >
