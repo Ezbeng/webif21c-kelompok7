@@ -9,18 +9,21 @@
 </head>
 <body style="background-image: url('assets/images/Universitas_Teknokrat_Indonesia.jpg');">
     <div class="container-form">
-        <form action="Home/halamanhome" class="form-case">
+        <form action="Home/login" class="form-case" method="POST">
             <img src="assets/images/UNIVERSITASTEKNOKRAT.png" width="100px" alt="" class="avatar-login">
             <label for="" class="title-form">SISFO M.D.A TEKOKRAT</label>
             <label for="">Username</label>
-            <input type="text" class="username" placeholder="Username">
+            <input type="text" class="username" placeholder="Username" name="username" id="username" >
             <label for="">Password</label>
-            <input type="password" class="password" placeholder="Password">
+            <input type="password" class="password" placeholder="Password" name="password" id="password">
             <label>
                 <input type="checkbox">Ingat Password
             </label>                  
             <br>
-            <input type="submit" class="submit" value="LOGIN">                
+            <input type="submit" class="submit" value="LOGIN">  
+            <?php if (session()->has('error')) : ?>
+                <div class="alert alert-danger"><?= session('error') ?></div>
+            <?php endif; ?>              
         </form> 
     </div>
 </body>

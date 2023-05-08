@@ -60,7 +60,7 @@
                     <span>Rekap</span>
                 </div>
 
-                <div class="nav-items">
+                <div class="nav-items" id="KELUAR">
                     <i class="bi bi-box-arrow-left"></i>
                     <span>Keluar</span>
                 </div>

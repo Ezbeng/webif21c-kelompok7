@@ -21,17 +21,23 @@ window.addEventListener("load", function () {
                 } else if (isHidden && items.classList.contains('tabledata')) {
                     subItemsCase.style.display = 'block';
                 }
+                
+                
+
             } else {
                 // Menutup sub-items-case saat elemen selain dashboard dan tabledata diklik
                 document.querySelectorAll('.sub-items-case').forEach(function (subItem) {
                     subItem.style.display = 'none';
                 });
-            }
 
-            if (items.getAttribute('id')) {
-                document.querySelector('.nav-top-title h3').innerHTML = items.getAttribute('id');
+                
             }
+            
 
+            if (items.getAttribute('id') == 'KELUAR') {
+                window.location.href = "/";
+            }
+            
             items.classList += ' aktif';
 
         };
