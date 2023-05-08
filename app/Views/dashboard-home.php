@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DASHBOARD</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/assets/css/navigasi.css">
-    <link rel="stylesheet" href="/assets/css/styleutama.css">
-    <link rel="stylesheet" href="/assets/css/table.css">
+    <link rel="stylesheet" href="assets/css/navigasi.css">
+    <link rel="stylesheet" href="assets/css/styleutama.css">
+    <link rel="stylesheet" href="assets/css/table.css">
 </head>
 
 <body>
@@ -28,7 +28,7 @@
     </div>
 
 
-    <script src="/assets/js/navigasi.js"></script>
+    <script src="assets/js/navigasi.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
     <script type='text/javascript'src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js'></script>
 </body>
