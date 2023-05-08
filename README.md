@@ -6,7 +6,7 @@
 anggota :
 - Ricky Fajar Adi Putra
 - Ardias Askan Afisina
-- Nyi Ketut Herlina
+- Nyi Ketut
 - Erick Yoga
 - Nur Fadila
 ## Management Data Dan Asset
