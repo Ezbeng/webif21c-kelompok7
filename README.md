@@ -1,9 +1,8 @@
 # Projek Pemrograman Web Tugas Akhir
-[http://webif21c-kelompok7.zya.me/](http://webif21c-kelompok7.zya.me/)
 
 # Kelompok : 7
 anggota :
-- Ricky Fajar Adi Putra
+- Ricky [F](http://webif21c-kelompok7.zya.me/)ajar Adi Putra
 - Ardias Askan Afisina
 - Nyi Ketut
 - Erick Yoga
