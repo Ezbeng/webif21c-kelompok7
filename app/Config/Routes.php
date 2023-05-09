@@ -37,6 +37,11 @@ $routes->get('/inventaris-home', 'Home::inventarispage');
 $routes->get('/user-home', 'Home::userpage');
 $routes->get('/stats-home', 'Home::statspage');
 
+$routes->post('/tambah-data', 'Home::tambahdata');
+$routes->post('/hapus-data', 'Home::hapusdata');
+$routes->post('/edit-data', 'Home::updatedata');
+
+
 
 /*
  * --------------------------------------------------------------------

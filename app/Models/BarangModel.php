@@ -7,18 +7,11 @@ use CodeIgniter\Model;
 class BarangModel extends Model
 {
     protected $table = 'barang';
-    protected $primaryKey = 'no'; // Atur jika primary key bukan 'id'
+    protected $primaryKey = 'id';
     protected $allowedFields = ['no', 'nama', 'harga', 'jumlah', 'keterangan'];
 
-    public function getAllBarang()
+    public function getBarang()
     {
         return $this->findAll();
     }
-
-    public function getBarangById($id)
-    {
-        return $this->find($id);
-    }
-
-    // Tambahkan method lain sesuai kebutuhan, seperti insert, update, delete, dll.
 }
